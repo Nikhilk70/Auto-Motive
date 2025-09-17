@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hero Slider & Navbar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <img src="images/logo.png" alt="Logo">
+      </div>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Slider -->
+  <div class="container" id="main-hero-container">
+    <div class="background" id="background"></div>
+
+    <div class="card-container" id="cardContainer"></div>
+
+    <div class="navigation" id="navigation"></div>
+
+    <div class="title">
+      <h1 id="cardTitle"></h1>
+      <p id="cardText"></p>
+    </div>
+  </div>
+
+  <div class="design-container categories">
+    <h2 class="design-title">Categories</h2>
+    <div class="category-grid">
+        <div class="category-item">Android Stereo</div>
+        <div class="category-item">Speakers</div>
+        <div class="category-item">LED Lights</div>
+        <div class="category-item">Spoiler</div>
+        <div class="category-item">Skirts</div>
+        <div class="category-item">Head Lamp and Tail Lamp</div>
+        <div class="category-item">Alloys</div>
+        <div class="category-item">Seat Cover</div>
+        <div class="category-item">Steering Cover</div>
+        <div class="category-item">Fog Lamp</div>
+    </div>
+    <button class="shop-btn">Shop Now</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
